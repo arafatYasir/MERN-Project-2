@@ -15,7 +15,6 @@ ul, ol {
 }
 
 /* ---Navbar--- */
-
 nav {
     background-color: white;
     position: absolute;
@@ -65,4 +64,63 @@ nav .icon-parent {
 .icon-parent i {
     font-size: 10px;
     color: #036E8A;
+}
+
+/* ---Banner Section--- */
+#banner {
+    background: url("../images//banner_image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 260px;
+    padding-bottom: 200px;
+}
+
+.banner-wrapper {
+    max-width: 778px;
+    margin: 0 auto;
+}
+
+#banner .section-title {
+    color: #fff;
+    font-size: 89px;
+    font-weight: 700;
+}
+
+#banner .section-description {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 45px;
+}
+
+#banner .wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+#banner input {
+    color: #036E8A;
+    font-size: 20px;
+    padding: 17px 120px 16px 90px;
+    background: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: 24px 13px;
+    border: 0;
+    border: 1px solid #036E8A;
+    border-radius: 12px;
+}
+
+#banner input::placeholder {
+    color: #036E8A;
+}
+
+#banner button {
+    background: #FF8000;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
