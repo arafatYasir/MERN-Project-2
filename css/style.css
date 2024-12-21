@@ -232,3 +232,125 @@ nav .icon-parent {
     border-radius: 10px;
     padding: 16px 45px;
 }
+
+/* ---Special Package Section--- */
+#package {
+    margin-top: 90px;
+}
+
+#package .section-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #036E8A;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#package .section-description {
+    font-size: 20px;
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.package-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.package-wrapper .premium .title {
+    color: #FF8000;
+}
+
+.package-wrapper .premium .price {
+    color: #FF8000;
+}
+
+.package-wrapper .premium .expiry {
+    color: #FF8000;
+}
+
+.package-wrapper .premium ul li i {
+    color: #FF8000;
+}
+
+.package-wrapper .premium button {
+    background: #FF8000;
+}
+
+.package-item {
+    width: 357px;
+    padding: 36.5px 36.5px 76px 36.5px;
+    margin-top: 90px;
+    border: 1px solid #036E8A;
+    border-radius: 12px;
+    position: relative;
+}
+
+.package-item .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #036E8A;
+}
+
+.package-item .price {
+    font-size: 60px;
+    font-weight: 700;
+    color: #036E8A;
+}
+
+.package-item .expiry {
+    font-size: 25px;
+    font-weight: 400;
+    color: #036E8A;
+    margin-top: 6px;
+    margin-bottom: 39px;
+}
+
+.package-item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.package-item ul li {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.package-item ul .disable {
+    opacity: 0.5;
+}
+
+.package-item ul li i {
+    font-size: 18px;
+    color: #036E8A;
+}
+
+.package-item ul li span {
+    font-size: 18px;
+}
+
+.package-item .btn-container {
+    position: absolute;
+    /* width: 100%; */
+    bottom: -58px;
+    left: 80px;
+}
+
+.package-item button {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background: #036E8A;
+    padding: 13px 27px;
+    border: 0;
+    border-radius: 17px;
+}
+
+.package-item .btn-container p {
+    margin-top: 16px;
+    font-size: 20px;
+}
