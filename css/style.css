@@ -354,3 +354,37 @@ nav .icon-parent {
     margin-top: 16px;
     font-size: 20px;
 }
+
+/* ---Featured Destination - 2 Section--- */
+#featured2 {
+    margin-top: 114px;
+    padding: 69px 0 69px 0;
+    background-color: #036E8A;
+}
+
+#featured2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured-info {
+    width: 563px;
+    color: #fff;
+}
+
+.featured-info h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.featured-info .featured-title {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.featured-info .featured-description {
+    font-size: 20px;
+}
