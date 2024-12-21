@@ -415,3 +415,30 @@ nav .icon-parent {
     margin-top: 106px;
     margin-bottom: 112px;
 }
+
+/* ----Counter Section---- */
+#information {
+    background: url("../images/info-background-image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+#information .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#information .container div h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #707070;
+}
+
+#information .container div h4 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #707070;
+}
