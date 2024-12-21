@@ -623,3 +623,140 @@ nav .icon-parent {
     margin-top: 21.5px;
     line-height: 27px;
 }
+
+/* ---Contact Section--- */
+#contact {
+    margin-top: 155px;
+    /* background: url("../images/contact_bg_image.png");
+    background-repeat: no-repeat; */
+
+}
+
+#contact .container {
+    background: #036E8A;
+    background-image: url("../images/contact_bg_image.png");
+    background-repeat: no-repeat;
+    background-position: 36px 34px;
+    padding: 84px 0 86px 0;
+}
+
+#contact .contact-title {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#contact .first {
+    width: 778px;
+    margin: 0 auto;
+}
+
+#contact .contact-description {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#contact .description-1 {
+    margin-bottom: 4px;
+    margin-top: 74px;
+}
+
+#contact .second {
+    /* margin-top: 59px; */
+    width: 411px;
+    margin: 59px auto;
+}
+
+#contact .btn-container {
+    text-align: center; 
+}
+
+#contact button {
+    color: #fff;
+    background: #FF8000;
+    font-size: 30px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 12px;
+    padding: 20px 65px;
+}
+
+/* ---Footer Section--- */
+footer {
+    margin-top: 120px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #036E8A;
+}
+
+footer .one {
+    background: #036E8A;
+    width: 142px;
+    height: 3px;
+    border-radius: 2px;
+    margin-top: 32px;
+}
+
+footer ul {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #262525;
+}
+
+/* Footer -> Copyright Section */
+footer #copyright {
+    background: #FF8000;
+    padding: 42px 0px;
+    margin-top: 98px;
+    color: #fff;    
+}
+
+#copyright a{
+    color: #fff;
+}
+
+#copyright p {
+    font-size: 20px;
+}
+
+#copyright .container {
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 9px;
+}
+
+.footer-icons .icon-parent {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+}
+
+.footer-icons .icon-parent i {
+    font-size: 10px;
+    color: #fff;
+}
