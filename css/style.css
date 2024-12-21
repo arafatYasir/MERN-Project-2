@@ -124,3 +124,111 @@ nav .icon-parent {
     border: 1px solid white;
     border-radius: 50%;
 }
+
+/* ---Featured Destination Section--- */
+#featured-destination {
+    margin-top: 147px;
+}
+
+#featured-destination .section-info {
+    max-width: 560px;
+}
+
+#featured-destination .destination-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#featured-destination .section-info h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#featured-destination .section-title {
+    font-size: 55px;
+    font-weight: 700;
+    color: #036E8A;
+    margin-top: 31px;
+}
+
+#featured-destination .section-description {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#featured-destination .section-video {
+    position: relative;
+}
+
+#featured-destination .play-button {
+    width: 72px;
+    height: 72px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#featured-destination .play-button i {
+    font-size: 20px;
+    color: #036E8A;
+}
+
+#featured-destination .travel-location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #036E8A;
+    border-radius: 8px;
+    padding: 54px 64px 66px 64px;
+    margin-top: 147px;
+}
+
+.travel-location .one h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #036E8A;
+    margin-bottom: 14px;
+}
+
+.travel-location .one i {
+    color: #FF8000;
+}
+
+.travel-location .one i:last-child {
+    opacity: 0.5;
+}
+
+.travel-location .two {
+    width: 3px;
+    height: 96px;
+    background-color: #FF8000;
+}
+
+.travel-location .three h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.travel-location .three h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #036E8A;
+}
+
+.travel-location .four button {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    background: #FF8000;
+    border: 0;
+    border-radius: 10px;
+    padding: 16px 45px;
+}
