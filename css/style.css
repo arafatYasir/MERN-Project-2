@@ -442,3 +442,83 @@ nav .icon-parent {
     font-weight: 400;
     color: #707070;
 }
+
+/* ---Newsletter Section--- */
+#newsletter {
+    margin-top: 97px;
+}
+
+#newsletter .image-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+
+.newsletter-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.newsletter-wrapper .info h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #036E8A;
+    margin-bottom: 30px;
+}
+
+.newsletter-wrapper .info h2 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #036E8A;
+    margin-bottom: 45px;
+}
+
+.newsletter-wrapper .subscribe input {
+    padding: 27px 0px 27px 108px;
+    font-size: 20px;
+    border: 1px solid #036E8A;
+    border-radius: 14px;
+    background: url("../images/mail-icon.png");
+    background-repeat: no-repeat;
+    background-position: 58.5px 28px;
+}
+
+.newsletter-wrapper .subscribe input::placeholder {
+    color: #036E8A;
+}
+
+.newsletter-wrapper .subscribe button {
+    background: #FF8000;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 38px;
+    border: 0;
+    border-radius: 14px;
+}
+
+.newsletter-wrapper .subscribe button:hover {
+    cursor: pointer;
+}
+
+/* ---Brands Section--- */
+#brand {
+    margin-top: 130px;
+}
+
+#brand .container {
+    border: 3px solid #036E8A;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+
+#brand .divider {
+    width: 3px;
+    height: 73px;
+    background: #036E8A;
+    border-radius: 2px;
+}
