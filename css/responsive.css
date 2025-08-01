@@ -1,0 +1,189 @@
+/* ----Screen size up to 575px---- */
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ----Navbar Section---- */
+    nav .container {
+        flex-direction: column;
+        padding: 10px 0;
+        row-gap: 20px;
+    }
+
+    .nav-options {
+        gap: 10px;
+    }
+
+    nav ul li {
+        font-size: 13px;
+    }
+
+
+    /* ----Banner Section---- */
+    #banner .section-title {
+        font-size: 36px;
+    }
+
+    #banner .section-description {
+        font-size: 14px;
+    }
+
+    #banner .wrapper {
+        column-gap: 10px;
+        justify-content: center;
+    }
+
+    #banner input {
+        font-size: 16px;
+        padding: 14px 40px;
+        background-size: 16px;
+        background-position: 15px 15px;
+    }
+
+    #banner button {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+
+/* ----Screen size up to 767px---- */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ----Navbar Section---- */
+    nav .container {
+        flex-direction: column;
+        padding: 10px 0;
+        row-gap: 20px;
+    }
+
+    .nav-options {
+        gap: 16px;
+    }
+
+    nav ul li {
+        font-size: 15px;
+    }
+
+    /* ----Banner Section---- */
+    #banner .section-title {
+        font-size: 40px;
+    }
+
+    #banner .section-description {
+        font-size: 16px;
+    }
+
+    #banner .wrapper {
+        column-gap: 16px;
+        justify-content: center;
+    }
+
+    #banner input {
+        font-size: 18px;
+        padding: 14px 50px;
+        background-size: 18px;
+        background-position: 15px 15px;
+    }
+
+    #banner button {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+
+/* ----Screen size up to 991px---- */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ----Navbar Section---- */
+    nav .container {
+        /* flex-direction: column; */
+        /* padding: 10px 0; */
+        /* row-gap: 20px; */
+    }
+
+    .nav-options {
+        gap: 18px;
+    }
+
+    nav ul li {
+        font-size: 13px;
+    }
+
+    /* ----Banner Section---- */
+    #banner .section-title {
+        font-size: 50px;
+    }
+
+    #banner .section-description {
+        font-size: 18px;
+    }
+
+    #banner .wrapper {
+        column-gap: 16px;
+        justify-content: center;
+    }
+
+    #banner input {
+        font-size: 20px;
+        padding: 14px 80px;
+        background-size: 22px;
+        background-position: 40px 15px;
+    }
+
+    #banner button {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+
+/* ----Screen size up to 1199px---- */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ----Navbar Section---- */
+
+    nav ul li {
+        font-size: 13px;
+    }
+
+    /* ----Banner Section---- */
+    #banner .section-title {
+        font-size: 64px;
+    }
+
+    #banner .section-description {
+        font-size: 19px;
+    }
+
+    #banner .wrapper {
+        column-gap: 16px;
+    }
+
+    #banner input {
+        font-size: 20px;
+        padding: 14px 80px;
+        background-size: 22px;
+        background-position: 40px 15px;
+    }
+
+    #banner button {
+        width: 48px;
+        height: 48px;
+    }
+}

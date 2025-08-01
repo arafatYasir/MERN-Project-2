@@ -110,6 +110,7 @@ nav .icon-parent {
     border: 0;
     border: 1px solid #036E8A;
     border-radius: 12px;
+    outline: none;
 }
 
 #banner input::placeholder {
