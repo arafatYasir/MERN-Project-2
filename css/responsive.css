@@ -22,6 +22,9 @@
 
 
     /* ----Banner Section---- */
+    #banner {
+        padding-bottom: 150px;
+    }
     #banner .section-title {
         font-size: 36px;
     }
@@ -46,13 +49,72 @@
         width: 48px;
         height: 48px;
     }
+
+    /* ----Feature Section---- */
+    #featured-destination {
+        margin-top: 80px;
+    }
+
+    #featured-destination .destination-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #featured-destination .section-info h3 {
+        font-size: 20px;
+    }
+
+    #featured-destination .section-title {
+        margin-top: 16px;
+        font-size: 30px;
+    }
+
+    #featured-destination .section-description {
+        font-size: 16px;
+        margin-top: 14px;
+    }
+
+    #featured-destination .section-video img {
+        width: 100%;
+    }
+
+    #featured-destination .play-button {
+        width: 56px;
+        height: 56px;
+    }
+
+    #featured-destination .travel-location {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        margin-top: 80px;
+        padding: 20px 40px;
+    }
+
+    .travel-location .one h3 {
+        font-size: 24px;
+    }
+
+    .travel-location .two {
+        display: none;
+    }
+
+    .travel-location .three h1 {
+        font-size: 40px;
+    }
+
+    .travel-location .four button {
+        font-size: 20px;
+        padding: 14px 36px;
+    }
 }
 
 
 /* ----Screen size up to 767px---- */
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .container {
-        max-width: 90%;
+        max-width: 85%;
         margin: 0 auto;
     }
 
@@ -96,23 +158,80 @@
         width: 48px;
         height: 48px;
     }
+
+    /* ----Feature Section---- */
+    #featured-destination {
+        margin-top: 80px;
+    }
+
+    #featured-destination .destination-wrapper {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    #featured-destination .section-info h3 {
+        font-size: 24px;
+    }
+
+    #featured-destination .section-title {
+        margin-top: 16px;
+        font-size: 36px;
+    }
+
+    #featured-destination .section-description {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+
+    #featured-destination .section-video {
+        width: 100%;
+    }
+
+    #featured-destination .section-video img {
+        width: 100%;
+    }
+
+    #featured-destination .play-button {
+        width: 64px;
+        height: 64px;
+    }
+
+    #featured-destination .travel-location {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+        margin-top: 80px;
+        padding: 20px 40px;
+    }
+
+    .travel-location .one h3 {
+        font-size: 24px;
+    }
+
+    .travel-location .two {
+        display: none;
+    }
+
+    .travel-location .three h1 {
+        font-size: 40px;
+    }
+
+    .travel-location .four button {
+        font-size: 20px;
+        padding: 14px 36px;
+    }
 }
 
 
 /* ----Screen size up to 991px---- */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .container {
-        max-width: 90%;
+        max-width: 80%;
         margin: 0 auto;
     }
 
     /* ----Navbar Section---- */
-    nav .container {
-        /* flex-direction: column; */
-        /* padding: 10px 0; */
-        /* row-gap: 20px; */
-    }
-
     .nav-options {
         gap: 18px;
     }
@@ -146,13 +265,76 @@
         width: 48px;
         height: 48px;
     }
+
+
+    /* ----Feature Section---- */
+    #featured-destination {
+        margin-top: 80px;
+    }
+
+    #featured-destination .destination-wrapper {
+        gap: 30px;
+    }
+
+    #featured-destination .section-info {
+        width: 49%;
+    }
+
+    #featured-destination .section-info h3 {
+        font-size: 20px;
+    }
+
+    #featured-destination .section-title {
+        margin-top: 16px;
+        font-size: 30px;
+    }
+
+    #featured-destination .section-description {
+        font-size: 16px;
+        margin-top: 14px;
+    }
+
+    #featured-destination .section-video {
+        width: 49%;
+    }
+
+    #featured-destination .section-video img {
+        width: 100%;
+    }
+
+    #featured-destination .play-button {
+        width: 64px;
+        height: 64px;
+    }
+
+    #featured-destination .travel-location {
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 80px;
+        padding: 20px 40px;
+    }
+
+    .travel-location .one h3 {
+        font-size: 20px;
+    }
+
+    .travel-location .three h1 {
+        font-size: 40px;
+    }
+
+    .travel-location .four button {
+        font-size: 18px;
+        padding: 14px 10px;
+    }
 }
 
 
 /* ----Screen size up to 1199px---- */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .container {
-        max-width: 90%;
+        max-width: 80%;
         margin: 0 auto;
     }
 
@@ -185,5 +367,66 @@
     #banner button {
         width: 48px;
         height: 48px;
+    }
+
+
+    /* ----Feature Section---- */
+    #featured-destination {
+        margin-top: 80px;
+    }
+
+    #featured-destination .destination-wrapper {
+        gap: 30px;
+    }
+
+    #featured-destination .section-info {
+        width: 49%;
+    }
+
+    #featured-destination .section-info h3 {
+        font-size: 20px;
+    }
+
+    #featured-destination .section-title {
+        margin-top: 16px;
+        font-size: 36px;
+    }
+
+    #featured-destination .section-description {
+        font-size: 17px;
+        margin-top: 14px;
+    }
+
+    #featured-destination .section-video {
+        width: 49%;
+    }
+
+    #featured-destination .section-video img {
+        width: 100%;
+    }
+
+    #featured-destination .play-button {
+        width: 64px;
+        height: 64px;
+    }
+
+    #featured-destination .travel-location {
+        align-items: center;
+        gap: 30px;
+        margin-top: 80px;
+        padding: 20px 40px;
+    }
+
+    .travel-location .one h3 {
+        font-size: 24px;
+    }
+
+    .travel-location .three h1 {
+        font-size: 40px;
+    }
+
+    .travel-location .four button {
+        font-size: 18px;
+        padding: 14px 20px;
     }
 }
